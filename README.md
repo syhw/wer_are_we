@@ -27,7 +27,7 @@ WER are we? An attempt at tracking states of the arts and recent results on spee
 (Possibly trained on more data than SWB, but test set = full Hub5'00.)
 
 | WER (SWB=easy) | WER (full=SWB+CH) | Paper          | Notes   |
-| :------------- | :------------- | :-----: |
+| :------------- | :---------------- | :------------- | :-----: |
 | 12.6% | 16% | http://arxiv.org/abs/1412.5567 | CNN + Bi-RNN + CTC (speech to letters), 25.9% WER if trained _only_ only SWB |
 | 12.6% | 18.4% | http://www.danielpovey.com/files/2013_interspeech_dnn.pdf | HMM-DNN +sMBR |
 | 16% | 19.9% | http://arxiv.org/abs/1406.7806v2 | TODO |
