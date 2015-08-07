@@ -28,11 +28,11 @@ WER are we? An attempt at tracking states of the arts and recent results on spee
 
 | WER (SWB=easy) | WER (full=SWB+CH) | Paper          | Notes   |
 | :------------- | :---------------- | :------------- | :-----: |
-| 12.6% | 16% | http://arxiv.org/abs/1412.5567 | CNN + Bi-RNN + CTC (speech to letters), 25.9% WER if trained _only_ only SWB |
-| 12.6% | 18.4% | http://www.danielpovey.com/files/2013_interspeech_dnn.pdf | HMM-DNN +sMBR |
-| 16% | 19.9% | http://arxiv.org/abs/1406.7806v2 | TODO |
-| 10.4% | | http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p5609-soltau.pdf | TODO |
-| 11.5% | | http://www.cs.toronto.edu/~asamir/papers/icassp13_cnn.pdf | TODO |
+| 12.6% | 16% | [Deep Speech: Scaling up end-to-end speech recognition](http://arxiv.org/abs/1412.5567) | CNN + Bi-RNN + CTC (speech to letters), 25.9% WER if trained _only_ only SWB |
+| 12.6% | 18.4% | [Sequence-discriminative training of deep neural networks](http://www.danielpovey.com/files/2013_interspeech_dnn.pdf) | HMM-DNN +sMBR |
+| 16% | 19.9% | [Building DNN Acoustic Models for Large Vocabulary Speech Recognition](http://arxiv.org/abs/1406.7806v2) | TODO |
+| 10.4% | | [Joint Training of Convolutional and Non-Convolutional Neural Networks](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p5609-soltau.pdf) | CNN on MFSC/fbanks + 1 non-conv layer for FMLLR/I-Vectors concatenated in a DNN |
+| 11.5% | | [Deep Convolutional Neural Networks for LVCSR](http://www.cs.toronto.edu/~asamir/papers/icassp13_cnn.pdf) | CNN |
 
 ## PER
 
@@ -73,3 +73,5 @@ TODO?
  * SAT: speaker adaptive training
  * MLLR: maximum likelihood linear regression
  * LDA: (in this context) linear discriminant analysis
+ * MFCC: [Mel frequency cepstral coefficients](http://snippyhollow.github.io/blog/2014/09/25/classical-speech-recognition-features-in-one-picture/)
+ * FB/FBANKS/MFSC: [Mel frequency spectral coefficients](http://snippyhollow.github.io/blog/2014/09/25/classical-speech-recognition-features-in-one-picture/) 
