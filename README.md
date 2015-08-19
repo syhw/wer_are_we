@@ -1,5 +1,5 @@
 # wer_are_we
-WER are we? An attempt at tracking states of the arts and recent results on speech recognition. *Feel free to correct!* 
+WER are we? An attempt at tracking states of the art(s) and recent results on speech recognition. *Feel free to correct!* 
 (Inspired by [Are we there yet?](http://rodrigob.github.io/are_we_there_yet/build/))
 
 To be updated with Interspeech 2015...
@@ -14,7 +14,7 @@ To be updated with Interspeech 2015...
 | :------------- | :------------- | :------------- | :-----: |
 | 5.51% | 13.97% | [LibriSpeech: an ASR Corpus Based on Public Domain Audio Books](http://www.danielpovey.com/files/2015_icassp_librispeech.pdf) | HMM-DNN + pNorm[*](http://www.danielpovey.com/files/2014_icassp_dnn.pdf) |
 | 8.01% | 22.49% | same, [Kaldi](http://kaldi-asr.org/) | HMM-(SAT)GMM |
-| | 12.51% | [Audio Augmentation for Speech Recognition](http://www.danielpovey.com/files/2015_interspeech_augmentation.pdf) | | TDNN + pNorm + speed up/down speech |
+| | 12.51% | [Audio Augmentation for Speech Recognition](http://www.danielpovey.com/files/2015_interspeech_augmentation.pdf) | TDNN + pNorm + speed up/down speech |
 
 
 ### WSJ
