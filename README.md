@@ -68,6 +68,7 @@ TODO?
  * HMM: hidden markov model
  * GMM: Gaussian mixture model
  * DNN: deep neural network
+ * CNN: convolutional neural network
  * DBN: deep belief network (RBM-based DNN)
  * RNN: recurrent neural network
  * LSTM: long short-term memory
