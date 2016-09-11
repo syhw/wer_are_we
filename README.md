@@ -13,7 +13,8 @@ To be updated with Interspeech 2015...
 | WER test-clean | WER test-other | Paper          | Notes   |
 | :------------- | :------------- | :------------- | :-----: |
 | 5.83% | 12.69 | [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | *Humans* |
-| 4.83% | | [A time delay neural network architecture for efficient modeling of long temporal contexts](http://speak.clsp.jhu.edu/uploads/publications/papers/1048_pdf.pdf) | TDNN + iVectors |
+| 4.28% | | [Purely sequence-trained neural networks for ASR based on lattice-free MMI](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf) | HMM-TDNN trained with MMI + data augmentation (speed) + iVectors + 3 regularizations |
+| 4.83% | | [A time delay neural network architecture for efficient modeling of long temporal contexts](http://speak.clsp.jhu.edu/uploads/publications/papers/1048_pdf.pdf) | HMM-TDNN + iVectors |
 | 5.33% | 13.25% | [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | 9-layer model w/ 2 layers of 2D-invariant convolution & 7 recurrent layers, w/ 68M parameters trained on 11940h |
 | 5.51% | 13.97% | [LibriSpeech: an ASR Corpus Based on Public Domain Audio Books](http://www.danielpovey.com/files/2015_icassp_librispeech.pdf) | HMM-DNN + pNorm[*](http://www.danielpovey.com/files/2014_icassp_dnn.pdf) |
 | 8.01% | 22.49% | same, [Kaldi](http://kaldi-asr.org/) | HMM-(SAT)GMM |
@@ -39,14 +40,24 @@ To be updated with Interspeech 2015...
 | WER (SWB) | WER (full=SWB+CH) | Paper          | Notes   |
 | :------------- | :---------------- | :------------- | :-----: |
 | 6.9% | 12.5% | [The IBM 2016 English Conversational Telephone Speech Recognition System](http://arxiv.org/pdf/1604.08242v1.pdf) | RNN + VGG + LSTM acoustic model trained on SWB+Fisher+CH, N-gram + "model M" + NNLM language model |
+| 9.2% | 13.3% | [Purely sequence-trained neural networks for ASR based on lattice-free MMI](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf) | HMM-TDNN trained with MMI + data augmentation (speed) + iVectors + 3 regularizations + Fischer (10% / 15.1% respectively trained on SWBD only) |
+| 8.5% | 13% | [Purely sequence-trained neural networks for ASR based on lattice-free MMI](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf) | HMM-BLSTM trained with MMI + data augmentation (speed) + iVectors + 3 regularizations + Fischer |
 | 12.6% | 16% | [Deep Speech: Scaling up end-to-end speech recognition](http://arxiv.org/abs/1412.5567) | CNN + Bi-RNN + CTC (speech to letters), 25.9% WER if trained _only_ on SWB |
-| 11% | 17.1% | [A time delay neural network architecture for efficient modeling of long temporal contexts](http://speak.clsp.jhu.edu/uploads/publications/papers/1048_pdf.pdf) | TDNN + iVectors |
+| 11% | 17.1% | [A time delay neural network architecture for efficient modeling of long temporal contexts](http://speak.clsp.jhu.edu/uploads/publications/papers/1048_pdf.pdf) | HMM-TDNN + iVectors |
 | 12.6% | 18.4% | [Sequence-discriminative training of deep neural networks](http://www.danielpovey.com/files/2013_interspeech_dnn.pdf) | HMM-DNN +sMBR |
-| 12.9% | 19.3% | [Audio Augmentation for Speech Recognition](http://www.danielpovey.com/files/2015_interspeech_augmentation.pdf) | TDNN + pNorm + speed up/down speech |
+| 12.9% | 19.3% | [Audio Augmentation for Speech Recognition](http://www.danielpovey.com/files/2015_interspeech_augmentation.pdf) | HMM-TDNN + pNorm + speed up/down speech |
 | 15% | 19.1% | [Building DNN Acoustic Models for Large Vocabulary Speech Recognition](http://arxiv.org/abs/1406.7806v2) | DNN + Dropout |
 | 10.4% | | [Joint Training of Convolutional and Non-Convolutional Neural Networks](http://www.mirlab.org/conference_papers/International_Conference/ICASSP%202014/papers/p5609-soltau.pdf) | CNN on MFSC/fbanks + 1 non-conv layer for FMLLR/I-Vectors concatenated in a DNN |
 | 11.5% | | [Deep Convolutional Neural Networks for LVCSR](http://www.cs.toronto.edu/~asamir/papers/icassp13_cnn.pdf) | CNN |
 | 12.2% | | [Very Deep Multilingual Convolutional Neural Networks for LVCSR](http://arxiv.org/pdf/1509.08967v1.pdf) | Deep CNN (10 conv, 4 FC layers), multi-scale feature maps |
+
+
+### Fisher
+(RT03S FSH)
+
+| WER  | Paper          | Notes   |
+| 9.8% | [Purely sequence-trained neural networks for ASR based on lattice-free MMI](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf) | HMM-TDNN trained with MMI + data augmentation (speed) + iVectors + 3 regularizations + SWBD |
+| 9.6% | [Purely sequence-trained neural networks for ASR based on lattice-free MMI](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf) | HMM-BLSTM trained with MMI + data augmentation (speed) + iVectors + 3 regularizations + SWBD |
 
 ### CHiME (noisy speech)
 
