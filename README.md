@@ -78,6 +78,7 @@ TODO
 | PER     | Paper  | Notes   | 
 | :------ | :----- | :-----: |
 | 16.7%   | [Combining Time- and Frequency-Domain Convolution in Convolutional Neural Network-Based Phone Recognition](http://www.inf.u-szeged.hu/~tothl/pubs/ICASSP2014.pdf) | CNN in time and frequency + dropout, 17.6% w/o dropout |
+| 17.3%   | [Segmental Recurrent Neural Networks for End-to-end Speech Recognition](https://arxiv.org/abs/1603.00223) | RNN-CRF on 24(x3) MFSC |
 | 17.6%   | [Attention-Based Models for Speech Recognition](http://arxiv.org/abs/1506.07503) | Bi-RNN + Attention |
 | 17.7%   | [Speech Recognition with Deep Recurrent Neural Networks](http://arxiv.org/abs/1303.5778v1) | Bi-LSTM + skip connections w/ CTC |
 | 23%     | [Deep Belief Networks for Phone Recognition](http://www.cs.toronto.edu/~asamir/papers/NIPS09.pdf) | (first, modern) HMM-DBN |
