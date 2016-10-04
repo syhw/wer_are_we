@@ -57,6 +57,7 @@ To be updated with Interspeech 2015...
 (RT03S FSH)
 
 | WER  | Paper          | Notes   |
+| :------ | :----- | :-----: |
 | 9.6% | [Purely sequence-trained neural networks for ASR based on lattice-free MMI](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf) | HMM-BLSTM trained with MMI + data augmentation (speed) + iVectors + 3 regularizations + SWBD |
 | 9.8% | [Purely sequence-trained neural networks for ASR based on lattice-free MMI](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf) | HMM-TDNN trained with MMI + data augmentation (speed) + iVectors + 3 regularizations + SWBD |
 
