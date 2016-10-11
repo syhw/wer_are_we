@@ -78,6 +78,7 @@ TODO
 
 | PER     | Paper  | Notes   | 
 | :------ | :----- | :-----: |
+| 16.5%   | [Phone recognition with hierarchical convolutional deep maxout networks](http://download.springer.com/static/pdf/26/art%253A10.1186%252Fs13636-015-0068-3.pdf?originUrl=http%3A%2F%2Fasmp.eurasipjournals.springeropen.com%2Farticle%2F10.1186%2Fs13636-015-0068-3&token2=exp=1476195764~acl=%2Fstatic%2Fpdf%2F26%2Fart%25253A10.1186%25252Fs13636-015-0068-3.pdf*~hmac=d0fc51ae80140cbb6b0db06e210c6c3cd80e02bca85b6ba31fa4e593192e50fd) | Hierarchical maxout CNN + Dropout |
 | 16.7%   | [Combining Time- and Frequency-Domain Convolution in Convolutional Neural Network-Based Phone Recognition](http://www.inf.u-szeged.hu/~tothl/pubs/ICASSP2014.pdf) | CNN in time and frequency + dropout, 17.6% w/o dropout |
 | 17.3%   | [Segmental Recurrent Neural Networks for End-to-end Speech Recognition](https://arxiv.org/abs/1603.00223) | RNN-CRF on 24(x3) MFSC |
 | 17.6%   | [Attention-Based Models for Speech Recognition](http://arxiv.org/abs/1506.07503) | Bi-RNN + Attention |
