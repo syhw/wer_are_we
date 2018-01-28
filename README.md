@@ -2,8 +2,6 @@
 WER are we? An attempt at tracking states of the art(s) and recent results on speech recognition. *Feel free to correct!* 
 (Inspired by [Are we there yet?](http://rodrigob.github.io/are_we_there_yet/build/))
 
-To be updated with Interspeech 2015...
-
 ## WER
 
 ### LibriSpeech
