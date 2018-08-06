@@ -124,6 +124,7 @@ TODO?
  * DNN: deep neural network
  * CNN: convolutional neural network
  * DBN: deep belief network (RBM-based DNN)
+ * TDNN-F: a factored form of time delay neural networks (TDNN)
  * RNN: recurrent neural network
  * LSTM: long short-term memory
  * CTC: connectionist temporal classification
