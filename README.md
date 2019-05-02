@@ -11,6 +11,7 @@ WER are we? An attempt at tracking states of the art(s) and recent results on sp
 | WER test-clean | WER test-other | Paper          | Published | Notes   |
 | :------------- | :------------- | :------------- | :-------- | :-----: |
 | 5.83% | 12.69% | [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | December 2015 | *Humans* |
+| 2.50% | 5.80% | [SpecAugment: A Simple Data Augmentation Methodfor Automatic Speech Recognition](https://arxiv.org/pdf/1904.08779.pdf) | April 2019 | Listen, Attendand Spell network  |
 | 3.19% | 7.64% | [The CAPIO 2017 Conversational Speech Recognition System](https://arxiv.org/abs/1801.00059) | April 2018 | TDNN + TDNN-LSTM + CNN-bLSTM + Dense TDNN-LSTM across two kinds of trees
 | 3.80% | 8.76%  | [Semi-Orthogonal Low-Rank Matrix Factorization for Deep Neural Networks](http://www.danielpovey.com/files/2018_interspeech_tdnnf.pdf) | Interspeech, Sept 2018 |[Kaldi recipe](https://github.com/kaldi-asr/kaldi/blob/master/egs/librispeech/s5/local/chain/tuning/run_tdnn_1d.sh), 17-layer TDNN-F + iVectors|
 | 3.26% | 10.47% | [Fully Convolutional Speech Recognition](https://arxiv.org/abs/1812.06864) | December 2018 | End-to-end CNN on the waveform + conv LM|
