@@ -101,7 +101,7 @@ TODO
 
 ### TIMIT
 
-(So far, all results trained on TIMIT and tested on the standard test set.)
+(So far, all results trained on TIMIT and tested on the core test set.)
 
 | PER     | Paper  | Published | Notes   |
 | :------ | :----- | :-------- | :-----: |
