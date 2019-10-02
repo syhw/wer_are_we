@@ -10,11 +10,11 @@ WER are we? An attempt at tracking states of the art(s) and recent results on sp
 
 | WER test-clean | WER test-other | Paper          | Published | Notes   |
 | :------------- | :------------- | :------------- | :-------- | :-----: |
+| 5.83% | 12.69% | *Humans* [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | December 2015 | *Humans* |
 | 2.3%  | 5.0%   | [RWTH ASR Systems for LibriSpeech: Hybrid vs Attention](https://arxiv.org/abs/1905.03072) | September 2019, Interspeech | HMM-DNN + lattice-based sMBR + LSTM LM + Transformer LM rescoring (no data augmentation) |
-| 2.44%  |  8.29%   | [Improved Vocal Tract Length Perturbation for a State-of-the-Art End-to-End Speech Recognition System](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/3227.html) | September 2019, Interspeech | encoder-attention-decoder + Transformer LM |
 | 2.5%  | 5.8%   | [SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition](https://arxiv.org/abs/1904.08779) | April 2019 | Listen Attend Spell |
-| 5.83% | 12.69% | [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | December 2015 | *Humans* |
 | 3.19% | 7.64% | [The CAPIO 2017 Conversational Speech Recognition System](https://arxiv.org/abs/1801.00059) | April 2018 | TDNN + TDNN-LSTM + CNN-bLSTM + Dense TDNN-LSTM across two kinds of trees
+| 2.44%  |  8.29%   | [Improved Vocal Tract Length Perturbation for a State-of-the-Art End-to-End Speech Recognition System](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/3227.html) | September 2019, Interspeech | encoder-attention-decoder + Transformer LM |
 | 3.80% | 8.76%  | [Semi-Orthogonal Low-Rank Matrix Factorization for Deep Neural Networks](http://www.danielpovey.com/files/2018_interspeech_tdnnf.pdf) | Interspeech, Sept 2018 |[Kaldi recipe](https://github.com/kaldi-asr/kaldi/blob/master/egs/librispeech/s5/local/chain/tuning/run_tdnn_1d.sh), 17-layer TDNN-F + iVectors|
 | 2.8%  | 9.3%   | [RWTH ASR Systems for LibriSpeech: Hybrid vs Attention](https://arxiv.org/abs/1905.03072) | September 2019, Interspeech | encoder-attention-decoder + BPE + Transformer LM (no data augmentation) |
 | 3.26% | 10.47% | [Fully Convolutional Speech Recognition](https://arxiv.org/abs/1812.06864) | December 2018 | End-to-end CNN on the waveform + conv LM|
@@ -33,11 +33,11 @@ WER are we? An attempt at tracking states of the art(s) and recent results on sp
 
 | WER eval'92    | WER eval'93    | Paper          | Published | Notes   |
 | :------------- | :------------- | :------------- | :-------- | :-----: |
+| 5.03% | 8.08% | *Humans* [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | December 2015 | *Humans* |
 | 2.9% | | [End-to-end Speech Recognition Using Lattice-Free MMI](https://pdfs.semanticscholar.org/dcae/b29ad3307e2bdab2218416c81cb0c4e548b2.pdf) | September 2018 | HMM-DNN LF-MMI trained (biphone) |
 | 3.10% | | [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://proceedings.mlr.press/v48/amodei16.pdf) | December 2015 | 9-layer model w/ 2 layers of 2D-invariant convolution & 7 recurrent layers, w/ 100M parameters |
 | 3.47% | | [Deep Recurrent Neural Networks for Acoustic Modelling](http://arxiv.org/pdf/1504.01482v1.pdf) | April 2015 | TC-DNN-BLSTM-DNN |
 | 3.5%  | 6.8%  | [Fully Convolutional Speech Recognition](https://arxiv.org/abs/1812.06864) | December 2018 | End-to-end CNN on the waveform + conv LM|
-| 5.03% | 8.08% | [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | December 2015 | *Humans* |
 | 3.63% | 5.66% | [LibriSpeech: an ASR Corpus Based on Public Domain Audio Books](http://www.danielpovey.com/files/2015_icassp_librispeech.pdf) | 2015 | test-set on open vocabulary (i.e. harder), model = HMM-DNN + pNorm[*](http://www.danielpovey.com/files/2014_icassp_dnn.pdf) |
 | 4.1% | | [End-to-end Speech Recognition Using Lattice-Free MMI](https://pdfs.semanticscholar.org/dcae/b29ad3307e2bdab2218416c81cb0c4e548b2.pdf) | September 2018 | HMM-DNN E2E LF-MMI trained (word n-gram) |
 | 5.6% | | [Convolutional Neural Networks-based Continuous Speech Recognition using Raw Speech Signal](http://infoscience.epfl.ch/record/203464/files/Palaz_Idiap-RR-18-2014.pdf) | 2014 | CNN over RAW speech (wav) |
