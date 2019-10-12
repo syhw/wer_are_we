@@ -12,6 +12,7 @@ WER are we? An attempt at tracking states of the art(s) and recent results on sp
 | :------------- | :------------- | :------------- | :-------- | :-----: |
 | 5.83% | 12.69% | *Humans* [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | December 2015 | *Humans* |
 | 2.3%  | 5.0%   | [RWTH ASR Systems for LibriSpeech: Hybrid vs Attention](https://arxiv.org/abs/1905.03072) | September 2019, Interspeech | HMM-DNN + lattice-based sMBR + LSTM LM + Transformer LM rescoring (no data augmentation) |
+| 2.2%  | 5.8%   | [State-of-the-Art Speech Recognition Using Multi-Stream Self-Attention With Dilated 1D Convolutions](https://arxiv.org/abs/1910.00716) | October 2019 | Multi-stream self-attention in hybrid ASR (no data augmentation) |
 | 2.5%  | 5.8%   | [SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition](https://arxiv.org/abs/1904.08779) | April 2019 | Listen Attend Spell |
 | 3.19% | 7.64% | [The CAPIO 2017 Conversational Speech Recognition System](https://arxiv.org/abs/1801.00059) | April 2018 | TDNN + TDNN-LSTM + CNN-bLSTM + Dense TDNN-LSTM across two kinds of trees
 | 2.44%  |  8.29%   | [Improved Vocal Tract Length Perturbation for a State-of-the-Art End-to-End Speech Recognition System](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/3227.html) | September 2019, Interspeech | encoder-attention-decoder + Transformer LM |
