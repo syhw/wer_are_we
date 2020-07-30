@@ -100,11 +100,11 @@ WER are we? An attempt at tracking states of the art(s) and recent results on sp
 
 ### CHiME6 (multiarray noisy speech)
 
-| WER (constrained LM) | WER (unconstrained LM) | Paper | Published | Notes |
+| WER (fixed LM) | WER (unlimited LM) | Paper | Published | Notes |
 | :---- | :---- | :------------- | :---- | :-------------  |
 | 31.0% | 30.5% | [The USTC-NELSLIP Systems for CHiME-6 Challenge](https://chimechallenge.github.io/chime2020-workshop/papers/CHiME_2020_paper_du.pdf) | May 2020 | WPE + SSA + GSS + Data Augment (Speed, Volume) + SpecAugment + 8 AMs fusion (2 Single-feature AM + 6 Multi-feature AM)
-| 35.1% | 34.5% | [The IOA Systems for CHiME-6 Challenge](https://chimechallenge.github.io/chime2020-workshop/papers/CHiME_2020_paper_chen.pdf) | May 2020 | WPE + multi-stage GSS (2-stage for train, 3-stage for test) + SpecAugment + Data Augment (Noise, Reverberation, Speed) + 3 AMs fusion (CNN-TDNNF / CNN-TDNN-BLSTM + CNN-BLSTM)
-| 35.8% | 33.9% | [The STC System for the CHiME-6 Challenge](https://chimechallenge.github.io/chime2020-workshop/papers/CHiME_2020_paper_medennikov.pdf) | May 2020 | WPE + GSS + SpecAugment + 3 AMs fusion (TDNN-F on MFCC / TDNN-F on fbank gtf + stats + SpecAugment / CNN-TDNNF + stats + SpecAugment + multi-stride self-attention + multi-stream self-attention + sMBR) + MBR Decoding |
+| 35.1% | 34.5% | [The IOA Systems for CHiME-6 Challenge](https://chimechallenge.github.io/chime2020-workshop/papers/CHiME_2020_paper_chen.pdf) | May 2020 | WPE + multi-stage GSS + SpecAugment + Data Augment (Noise, Reverberation, Speed) + 3 AMs fusion (CNN-TDNNF / CNN-TDNN-BLSTM / CNN-BLSTM)
+| 35.8% | 33.9% | [The STC System for the CHiME-6 Challenge](https://chimechallenge.github.io/chime2020-workshop/papers/CHiME_2020_paper_medennikov.pdf) | May 2020 | WPE + GSS + SpecAugment + 3 AMs fusion ( 2 TDNN-F / CNN-TDNNF + stats + SpecAugment + self-attention + sMBR) + MBR Decoding |
 | 51.3% | 51.3% | [Baseline](https://arxiv.org/pdf/2004.09249.pdf)| May 2020 | WPE + GSS + Data Augment (Noise, Reverberation, Speed) + TDNNF
 
 ### CHiME (noisy speech)
