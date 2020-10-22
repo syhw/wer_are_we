@@ -124,7 +124,7 @@ TODO
 
 | PER     | Paper  | Published | Notes   |
 | :------ | :----- | :-------- | :-----: |
-| 13.8%   | [The Pytorch-Kaldi Speech Recognition Toolkit](https://arxiv.org/abs/1811.07453) | February 2019 | MLP+Li-GRU+MLP on MFCC+FBANK+fMLLR |
+| 13.8%   | [The Pytorch-Kaldi Speech Recognition Toolkit](https://arxiv.org/abs/1811.07453) | February 2019 | MLP+Li-GRU+MLP on MFCC+FBANK+fMLLR. [Silence phones are removed from reference and hypothesis transcripts!](https://github.com/mravanelli/pytorch-kaldi/blob/master/kaldi_decoding_scripts/local/score.sh#L48) |
 | 14.9%   | [Light Gated Recurrent Units for Speech Recognition](https://arxiv.org/abs/1803.10225) | March 2018 | Removing the reset gate in GRU, using ReLU activation instead of tanh and batch normalization |
 | 16.5%   | [Phone recognition with hierarchical convolutional deep maxout networks](https://link.springer.com/content/pdf/10.1186%2Fs13636-015-0068-3.pdf) | September 2015 | Hierarchical maxout CNN + Dropout |
 | 16.5%   | [A Regularization Post Layer: An Additional Way how to Make Deep Neural Networks Robust](https://www.researchgate.net/profile/Jan_Vanek/publication/320038040_A_Regularization_Post_Layer_An_Additional_Way_How_to_Make_Deep_Neural_Networks_Robust/links/59f97fffaca272607e2f804a/A-Regularization-Post-Layer-An-Additional-Way-How-to-Make-Deep-Neural-Networks-Robust.pdf) | 2017 | DBN with last layer regularization |
