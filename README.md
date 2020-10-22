@@ -98,6 +98,15 @@ WER are we? An attempt at tracking states of the art(s) and recent results on sp
 | 11.2% | [Purely sequence-trained neural networks for ASR based on lattice-free MMI](http://www.danielpovey.com/files/2016_interspeech_mmi.pdf) | September 2016 | HMM-TDNN trained with LF-MMI + data augmentation (speed perturbation) + iVectors + 3 regularizations |
 | 15.3% | [TED-LIUM: an Automatic Speech Recognition dedicated corpus](https://pdfs.semanticscholar.org/1e0b/8416b9d2afb9b1ef87557958ef964cb4472b.pdf) | May 2014 | Multi-layer perceptron (MLP) with bottle-neck feature extraction |
 
+### CHiME6 (multiarray noisy speech)
+
+| WER (fixed LM) | WER (unlimited LM) | Paper | Published | Notes |
+| :---- | :---- | :------------- | :---- | :-------------  |
+| 31.0% | 30.5% | [The USTC-NELSLIP Systems for CHiME-6 Challenge](https://chimechallenge.github.io/chime2020-workshop/papers/CHiME_2020_paper_du.pdf) | May 2020 | WPE + SSA + GSS + Data Augment (Speed, Volume) + SpecAugment + 8 AMs fusion (2 Single-feature AM + 6 Multi-feature AM)
+| 35.1% | 34.5% | [The IOA Systems for CHiME-6 Challenge](https://chimechallenge.github.io/chime2020-workshop/papers/CHiME_2020_paper_chen.pdf) | May 2020 | WPE + multi-stage GSS + SpecAugment + Data Augment (Noise, Reverberation, Speed) + 3 AMs fusion (CNN-TDNNF / CNN-TDNN-BLSTM / CNN-BLSTM)
+| 35.8% | 33.9% | [The STC System for the CHiME-6 Challenge](https://chimechallenge.github.io/chime2020-workshop/papers/CHiME_2020_paper_medennikov.pdf) | May 2020 | WPE + GSS + SpecAugment + 3 AMs fusion ( 2 TDNN-F / CNN-TDNNF + stats + SpecAugment + self-attention + sMBR) + MBR Decoding |
+| 51.3% | 51.3% | [CHiME-6 Challenge: Tackling Multispeaker Speech Recognition for Unsegmented Recordings](https://arxiv.org/pdf/2004.09249.pdf)| May 2020 | WPE + GSS + Data Augment (Noise, Reverberation, Speed) + TDNNF | Baseline |
+
 ### CHiME (noisy speech)
 
 | clean | real | sim | Paper | Published | Notes |
