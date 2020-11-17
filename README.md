@@ -11,6 +11,7 @@ WER are we? An attempt at tracking states of the art(s) and recent results on sp
 | WER test-clean | WER test-other | Paper          | Published | Notes   |
 | :------------- | :------------- | :------------- | :-------- | :-----: |
 | 5.83% | 12.69% | *Humans* [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595v1) | December 2015 | *Humans* |
+| 1.9% | 3.9% | [Conformer: Convolution-augmented Transformer for Speech Recognition](https://arxiv.org/pdf/2005.08100.pdf) | May 2020 | Convolution-augmented-Transformer(Conformer + 3-layer LSTM LM (data augmentation:SpecAugment) |
 | 1.9%  | 4.1%   | [ContextNet: Improving Convolutional Neural Networks for Automatic Speech Recognition with Global Context](https://arxiv.org/pdf/2005.03191.pdf) | May 2020 | CNN-RNN-Transducer(ContextNet) + 3-layer LSTM LM (data augmentation:SpecAugment)  |
 | 2.0%  | 4.1%   | [End-to-end ASR: from Supervised to Semi-Supervised Learning with Modern Architectures](https://arxiv.org/abs/1911.08460) | November 2019 | Conv+Transformer AM (10k word pieces) with ConvLM decoding and Transformer rescoring + 60k hours unlabeled |
 | 2.3% | 4.9%  | [Transformer-based Acoustic Modeling for Hybrid Speech Recognition](https://arxiv.org/abs/1910.09799)  | October 2019 | Transformer AM (chenones) + 4-gram LM + Neural LM rescore (data augmentation:Speed perturbation and SpecAugment) |
