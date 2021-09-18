@@ -126,6 +126,7 @@ TODO
 
 | PER     | Paper  | Published | Notes   |
 | :------ | :----- | :-------- | :-----: |
+| 12.9%   | [Instantaneous Frequency Filter-Bank Features for Low Resource Speech Recognition Using Deep Recurrent Architectures](https://ieeexplore.ieee.org/abstract/document/9530049) | September 2021 | Li-GRU with FMLLR + IFFB + FBANK + IFFB-FMLLR features |
 | 13.8%   | [The Pytorch-Kaldi Speech Recognition Toolkit](https://arxiv.org/abs/1811.07453) | February 2019 | MLP+Li-GRU+MLP on MFCC+FBANK+fMLLR. [Silence phones are removed from reference and hypothesis transcripts!](https://github.com/mravanelli/pytorch-kaldi/blob/master/kaldi_decoding_scripts/local/score.sh#L48) |
 | 14.9%   | [Light Gated Recurrent Units for Speech Recognition](https://arxiv.org/abs/1803.10225) | March 2018 | Removing the reset gate in GRU, using ReLU activation instead of tanh and batch normalization |
 | 16.5%   | [Phone recognition with hierarchical convolutional deep maxout networks](https://link.springer.com/content/pdf/10.1186%2Fs13636-015-0068-3.pdf) | September 2015 | Hierarchical maxout CNN + Dropout |
@@ -166,8 +167,10 @@ TODO?
  * sMBR: state-level minimum Bayes risk
  * SAT: speaker adaptive training
  * MLLR: maximum likelihood linear regression
+ * FMLLR: Feature space Maximum Likelihood Linear Regression
  * LDA: (in this context) linear discriminant analysis
  * MFCC: [Mel frequency cepstral coefficients](http://snippyhollow.github.io/blog/2014/09/25/classical-speech-recognition-features-in-one-picture/)
  * FB/FBANKS/MFSC: [Mel frequency spectral coefficients](http://snippyhollow.github.io/blog/2014/09/25/classical-speech-recognition-features-in-one-picture/)
  * IFCC: Instantaneous frequency cosine coefficients (https://github.com/siplabiith/IFCC-Feature-Extraction)
+ * IFFB: Instantaneous frequency filter-bank features
  * VGG: very deep convolutional neural networks from Visual Graphics Group, VGG is an architecture of 2 {3x3 convolutions} followed by 1 pooling, repeated
