@@ -57,6 +57,7 @@ WER are we? An attempt at tracking states of the art(s) and recent results on sp
 
 | WER (SWB) | WER (CH) | Paper          | Published | Notes   |
 | :-------  | :------- | :------------- | :-------- | :-----: |
+| 5.9% | 11.3% | *Humans* [Achieving Human Parity in Conversational Speech Recognition](https://arxiv.org/abs/1610.05256) | October 2016 | *Humans* |
 | 4.9% | 9.5%  | [An investigation of phone-based subword units for end-to-end speech recognition](https://arxiv.org/abs/2004.04290) | April 2020 | 2 CNN + 24 layers Transformer encoder and 12 layers Transformer decoder model with char BPE and phoneme BPE units. |
 | 5.0% | 9.1%  | [The CAPIO 2017 Conversational Speech Recognition System](https://arxiv.org/abs/1801.00059) | December 2017 | 2 Dense LSTMs + 3 CNN-bLSTMs across 3 phonesets from [previous Capio paper](https://pdfs.semanticscholar.org/d0ec/cd60d800308cd6e59810769b92b40961c09a.pdf) & AM adaptation using parameter averaging (5.6% SWB / 10.5% CH single systems) |
 | 5.1% | 9.9%  | [Language Modeling with Highway LSTM](https://arxiv.org/abs/1709.06436) | September 2017 | HW-LSTM LM trained with Switchboard+Fisher+Gigaword+Broadcast News+Conversations, AM from [previous IBM paper](https://arxiv.org/abs/1703.02136)|
